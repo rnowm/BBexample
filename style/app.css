@@ -23,3 +23,17 @@ section[role="region"] {
 #settings-view{
   transform: translateY(100%);
 }
+
+
+[data-type="list"] li > a aside img {
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem 1rem 0 0;
+}
+
+[data-type="list"] li > a aside.pack-end.install {
+  background: url(images/download.png) no-repeat;
+  height: 3rem;
+  width: 3rem;
+  margin: 1.5rem 0 0 1rem;
+}
