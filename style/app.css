@@ -20,10 +20,23 @@ section[role="region"] {
   background: #fff;
 }
 
-#settings-view{
-  transform: translateY(100%);
+#settings-view {
+  z-index: 10;
 }
 
+.move-down {
+  transform: translateY(100%);
+	transition: all 0.2s;
+}
+
+.move-up {
+	transform: translateY(0);
+	transition: all 0.2s;
+}
+
+section[role="region"] > header:first-child .icon.icon-settings {
+  background-image: url(images/settings.png);
+}
 
 [data-type="list"] li > a aside img {
   height: 4rem;
