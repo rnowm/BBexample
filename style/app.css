@@ -50,3 +50,7 @@ section[role="region"] > header:first-child .icon.icon-settings {
   width: 3rem;
   margin: 1.5rem 0 0 1rem;
 }
+
+#settings-view form {
+	margin: 1.5rem;
+}

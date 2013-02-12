@@ -6,6 +6,7 @@
 
 <link rel="stylesheet" type="text/css" href="style/headers.css"/>
 <link rel="stylesheet" type="text/css" href="style/lists.css" />
+<link rel="stylesheet" type="text/css" href="style/input_areas.css" />
 <link rel="stylesheet" type="text/css" href="style/app.css"/>
 </head>
 
@@ -40,13 +41,22 @@
     </article>
   </section>
 
-  <section role="region" id="settings-view" class="move-down skin-organic">
+  <section role="region" id="settings-view" class="skin-organic">
     <header>
-    <button id="close-btn"><span class="icon icon-close">close</span></button>
+      <button id="close-btn"><span class="icon icon-close">close</span></button>
+      <menu type="toolbar">
+        <button id="settings-btn">Log in</button>
+      </menu>
       <h1>Settings</h1>
     </header>
     <article>
-      <!-- Content -->
+      <form>
+        <p>
+          <input type="text" placeholder="username">
+          <button type="reset">Clear</button>
+        </p>
+        <p><input type="password" placeholder="password"/></p>
+      </form>
     </article>
   </section>
 
